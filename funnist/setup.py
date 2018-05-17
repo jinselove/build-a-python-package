@@ -25,6 +25,8 @@ setup(name='funniest',
       install_requires=[
         'markdown',
       ],
+      test_suite='nose2.collector',
+      tests_require=['nose2'],
       dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'],
       include_package_data=True,
       zip_safe=False)
