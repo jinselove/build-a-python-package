@@ -29,4 +29,5 @@ setup(name='funniest',
       tests_require=['nose2'],
       dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'],
       include_package_data=True,
+      scripts=['bin/funniest-joke'],
       zip_safe=False)
