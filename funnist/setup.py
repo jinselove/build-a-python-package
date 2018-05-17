@@ -11,4 +11,5 @@ setup(name='funniest',
       install_requires=[
         'markdown',
       ],
+      dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'],
       zip_safe=False)
