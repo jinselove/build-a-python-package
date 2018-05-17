@@ -8,4 +8,7 @@ setup(name='funniest',
       author_email='email@example.com',
       license='MIT',
       packages=['funniest'],
-      zip_sage=False)
+      install_requires=[
+        'markdown',
+      ],
+      zip_safe=False)
